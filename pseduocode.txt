@@ -1,0 +1,15 @@
+# Tic Tac Toe Brain Storming:
+
+- Two players will start the game
+- Player 1 will always be X.
+- Player 2 will always be O.
+- Draw the board & mark it with X and O according to the player clicking on the cell inside the board.
+- Decide wither there will be a winner or a tie.
+- Check for winning pattern and if yes it means there is a winner:
+Stop the game by not allowing for further clicks
+
+- If there is a tie game over and reset the board.
+- The player can only click once in the cell and they wont be allowed to change the place of the marked cell until the other player turn finish.
+- Xs & Os should be switching for every click
+- The players will have two options Start or Reset.
+

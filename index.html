@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rakkas&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tic-Tac-To</title>
+  </head>
+  <body>
+    <div id="wrapper">
+      <div class="left">
+        <div class="title">
+          <h1>Tic-Tac-Toe</h1>
+        </div>
+        <div class="reset">
+          <button id="reset">Play Again</button>
+          <button id="resetCount">Reset Score</button>
+        </div>
+      </div>
+      <div class="right">
+        <div class="game">
+          <div id="players">
+            <div id="playerX">Player X : <span class="playerx">0</span></div>
+            <div id="playerO">Player O : <span class="playero">0</span></div>
+          </div>
+          <div id="gameBoard">
+            <div class="cell" id="c1"></div>
+            <div class="cell" id="c2"></div>
+            <div class="cell" id="c3"></div>
+            <div class="cell" id="c4"></div>
+            <div class="cell" id="c5"></div>
+            <div class="cell" id="c6"></div>
+            <div class="cell" id="c7"></div>
+            <div class="cell" id="c8"></div>
+            <div class="cell" id="c9"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
